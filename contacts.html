@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Folio</title>
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
+<body>
+  <div class="page">
+    
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="header-brand">WEBDEVELOPER</div>
+          <div class="header-logo">
+            <img src="img/code.svg" alt="Logo" />
+          </div>
+          <div class="header-nav">
+            <a class="header-nav-link" href="index.html">Home</a>
+            <a class="header-nav-link" href="about.html">About me</a>
+            <a class="header-nav-link active" href="contacts.html">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="content">
+        <div class="content-header">
+          <h1 class="title">Write me a <span>message</span></h1>
+          <div class="text">
+            <p>Many desktop publishing packages and web page editors now use Lorem</p>
+          </div>
+        </div>
+
+        <form class="form" action="/" method="post">
+          <div class="form-group">
+            <input class="input" type="text" name="name" placeholder="Name" />
+          </div>
+          <div class="form-group">
+            <input class="input" type="email" name="email" placeholder="Email" />
+          </div>
+          <div class="form-group">
+            <input class="input" type="tel" name="tel" placeholder="Phone" />
+          </div>
+          <div class="form-group">
+            <textarea class="textarea" name="text" placeholder="Message"></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-full" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Author image -->
+    <img class="author" src="img/me.png" alt="Afraz Navbahorov" />
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="contacts">
+          <a class="contacts-link" href="mailto:anawbahorov@gmail.com">
+            <img class="contacts-icon" src="img/mail.svg" alt="Email icon" />
+            anawbahorov@gmail.com
+          </a>
+          <a class="contacts-link" href="tel:+992500509405">
+            <img class="contacts-icon" src="img/tel.svg" alt="Phone icon" />
+            +992 50 050 9405
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
